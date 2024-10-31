@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0sp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30sp">
+
+        <TextView
+            android:id="@+id/judulRelScrol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentEnd="false"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="50sp"
+            android:layout_marginEnd="0dp"
+            android:text="Relative Layout"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/judulArtikel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judulRelScrol"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50sp"
+            android:gravity="center"
+            android:text="Lorem Ipsum"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/artikelRelScroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judulArtikel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25sp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pharetra condimentum magna eget dignissim. Fusce vehicula libero quis dolor venenatis dictum. Donec imperdiet tellus eget condimentum sodales. Nullam condimentum mauris rutrum est volutpat viverra. \n\nCras lobortis magna non vestibulum ultricies. Suspendisse consequat turpis vitae mollis sodales. Donec interdum, neque ut fermentum blandit, neque purus mattis enim, quis vehicula ante metus vitae ex. Ut massa neque, ullamcorper in purus rhoncus, elementum ultricies magna. Nulla at congue diam.  Etiam sit amet nibh sapien. Pellentesque fermentum at dui id ultricies. Pellentesque viverra urna at nisi feugiat molestie. Nulla facilisis mauris vel ligula consectetur placerat. Quisque luctus ante et metus suscipit consectetur. Morbi at magna ligula. Praesent pellentesque velit quis facilisis dapibus. \n\nNunc tempor elementum ante at fermentum. Cras mollis nulla ut justo varius laoreet. Integer feugiat lacinia varius.  Donec convallis, dolor vel venenatis posuere, purus sem dapibus orci, sit amet laoreet odio ligula sit amet purus. Nulla eget bibendum sapien. Aliquam mollis tortor vel ultrices tincidunt. Nam malesuada metus et nibh malesuada, auctor sagittis purus posuere. Morbi id tempus nulla. \n\nCurabitur faucibus quam vitae sagittis elementum. Vestibulum est est, ornare a molestie id, ultricies nec velit. Morbi iaculis, massa ac faucibus placerat, augue turpis sagittis mi, vitae eleifend sapien lorem eu tortor. Phasellus volutpat magna non lorem hendrerit vulputate. Praesent commodo lobortis congue. Quisque ut placerat dui. Cras vel enim imperdiet augue porttitor vestibulum. Sed a pharetra arcu. Proin ac nisi eu magna condimentum maximus.  Integer mauris arcu, finibus non elit blandit, sagittis hendrerit augue. Maecenas lacinia volutpat viverra. Vestibulum vulputate sapien ac purus viverra porttitor. Aliquam auctor id ante auctor blandit. Mauris ornare nisi lacus, at efficitur massa pretium ac. Vestibulum neque purus, tempus vel luctus et, fringilla at libero. Nulla vulputate aliquam risus vitae faucibus. Nulla auctor volutpat libero, et ultrices sem pretium a. Nam scelerisque porttitor metus, dictum imperdiet sem tincidunt id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce egestas imperdiet augue, vel condimentum erat fermentum et. Aliquam efficitur magna non est fermentum vulputate non eget libero.  Morbi pulvinar dignissim suscipit. Phasellus mauris dolor, condimentum quis nulla consequat, dapibus pellentesque urna. In hac habitasse platea dictumst. Sed semper turpis sit amet tellus ullamcorper, et faucibus metus sagittis. Nulla tempus suscipit ultrices. Nulla quis est convallis, pretium justo nec, auctor magna. Curabitur iaculis nulla a velit ultricies gravida. Sed porta porta velit id lobortis. Donec congue magna ex, sed imperdiet purus bibendum in. Aliquam sit amet massa tellus. Fusce egestas auctor velit, nec facilisis est lacinia ut."
+            android:textAlignment="textStart"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/bKembaliRelScroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/artikelRelScroll"
+            android:layout_centerHorizontal="false"
+            android:layout_marginTop="20sp"
+            android:text="Kembali" />
+
+    </RelativeLayout>
+
+</ScrollView>
